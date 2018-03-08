@@ -1,0 +1,464 @@
+/* Start Global */
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body {background: #ececec ;font-family:tahoma ;margin: 0;height: 2000px}
+.container{margin: auto;width: 1200px}
+
+/* End Global */
+
+/* Start Navbar */
+
+.navbar{height: 0; position: relative;z-index: 2}
+
+.navbar ul li a {
+    color: #ccc;text-decoration: none
+}
+
+.navbar h2 {
+    float: left;width: 30%;margin: 8px 0 0 30px;color: #51b4ee
+}
+.navbar ul{
+    float: right;width: 55%;list-style: none;margin-top: 10px ;color: #fff;font-size: 20px;
+}
+.navbar ul li {
+    display: inline-block; margin-left: 35px ; padding-bottom: 10px;padding: 0;
+}
+.navbar ul li:last-of-type{
+    padding-right: 0
+}
+
+.navbar li .active a ,
+.navbar li a:hover {
+    border-bottom: 2px solid #51b4ee;
+    color: #51b4ee !important;
+    text-decoration: none;
+} 
+.navbar ul .active ,
+.navbar ul li:hover{
+    border-bottom: 2px solid #51b4ee;
+    color: #51b4ee !important
+}
+.about {
+    background: #00f;
+    color: #fff
+}
+
+/* End Navbar */
+
+
+/* Start Header */
+
+
+.header{
+    background-image: url("cover.jpg");
+    
+}
+
+.header .overlay {
+    height: 100%;
+    width: 100%;
+    background-color:  rgba(0,0,0,0.5)
+    
+}
+.header .bx-wrapper {
+    height: 100%
+    
+}
+.header .bx-wrapper .bx-viewport {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100% !important;
+    text-align: center;
+}
+
+.header .bxslider {
+    height: 100%    
+}
+
+.header .bxslider li {
+    display: block;
+    height: 150px;
+    color: #ccc
+}
+
+.header .bxslider li h3{
+    font-size: 40px;margin-bottom: 20px
+}
+.header .bxslider li span {
+    color: #51b4ee;
+    font-family: Tahoma;
+}
+/* End Header */
+
+
+
+/* Start Skillls */
+
+.skills {
+    height: 600px;
+    background: #333;
+    padding-top: 15px;
+    color: #fff
+}
+
+.skills h3 {
+    font-size: 30px;
+    font-family: Arial;
+    color: #ccc
+}
+
+.skills h3 span {
+    color: #51b4ee;
+    border-bottom: 2px solid #51b4ee;
+    padding-bottom: 10px
+}
+
+.skills .container .item {
+    float: left;
+    width: 30%;
+    color: #ccc;
+    margin: 30px 20px
+}
+
+.skills .container .item i {
+    color: #51b4ee;
+    float: left;
+    width: 27%;
+    margin-top: 30px
+}
+
+.skills .container .item .info {
+    float: left;
+    width: 73%;
+
+}
+
+.skills .container .item h4{
+    color: #fff;
+    margin-bottom: 0
+}
+
+.team {
+    padding: 40px 0; 
+    background: #333;
+    margin: 0;
+    overflow: hidden
+}
+
+hr {
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    width: 1200px
+}
+
+.team h3 {
+    font-size: 30px;
+    font-family: Arial;
+    color: #ccc
+}
+
+.team h3 span {
+    color: #51b4ee;
+    border-bottom: 2px solid #51b4ee;
+    padding-bottom: 10px
+}
+
+.team  p {
+    color: #ccc
+}
+
+.team .box{
+    position: relative;
+}
+.team .box:not(:first-child) {
+    float: right;
+    width: 17%;
+    margin-left: 60px;
+}
+
+.team .box:first-child {
+    width: 34%;
+    float: left;
+   
+}
+.team .box img{
+    width: 100%
+}
+
+.team .box .overlay1 ,
+.team .box .overlay2 ,
+.team .box .overlay3{
+    background: #51b4ee;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    opacity: .7;
+    display: none
+}
+
+.team .box .overlay1 span ,
+.team .box .overlay2 span ,
+.team .box .overlay3 span{
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+    line-height: 183px;
+}
+
+/* End Skillls */
+
+/* Start Test */
+
+.testim {
+    background: url('images/port.jpg');
+    height: 450px;
+    background-size: cover;
+    position: relative
+}
+
+.testim .t-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7
+}
+
+.testim .infor{
+    margin: 0;
+    padding: 40px 80px;
+    text-align: center;
+    color: #ccc;
+    position: absolute
+}
+
+.testim .infor h3 {
+    font-size: 30px;
+    font-family: Arial;
+    color: #ccc;
+    margin-left: 265px
+}
+
+.testim .infor q{
+    font-family: tahoma;
+    font-size: 19px;
+    line-height: 1.8
+}
+.testim .infor h3 span {
+    color: #51b4ee;
+    border-bottom: 2px solid #51b4ee;
+    padding-bottom: 10px;
+    margin-left: 10px
+}
+.testim .infor h4 {
+    color: #51b4ee;
+    font-family: tahoma;
+    border-bottom: 2px dotted #51b4ee;
+    float: right;
+    margin: 60px 97px 80px -165px
+}
+
+.testim .bx-wrapper {
+    margin: 0 auto 60px;
+    padding: 0;
+    width: 111%;
+    height: 83%;
+    position: absolute;
+    max-width: 111% !important
+}
+
+.testim .bx-wrapper .bx-viewport {
+    position: absolute !important;
+    width: 85% !important;
+    box-shadow: none;
+    border: 0;
+    background: none;
+    margin-left: 75px;
+    margin-top: -18px;
+}
+
+.testim .bxslider {
+    padding: 20px 0 !important;
+    
+}
+/* End Test */
+
+/* Start Projects */
+.project {
+    padding: 30px 0; 
+    background: #333;
+    margin: 0;
+    overflow: hidden;
+    height: 700px
+}
+
+.project h3 {
+    font-size: 30px;
+    font-family: Arial;
+    color: #ccc
+}
+
+.project h3 span {
+    color: #51b4ee;
+    border-bottom: 2px solid #51b4ee;
+    padding-bottom: 10px
+}
+
+.project ul {
+   list-style: none;
+    padding: 10px 0;
+}
+.project li {
+    float: left;
+    color: #ccc;
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.project li:hover ,
+.select{
+    background: #51b4ee;
+    color: #fff;
+    border: 2px solid #51b4ee !important;
+}
+
+
+.project .container>div {
+    float: left;
+    width: 32%;
+    margin-top: 30px;
+    position: relative
+}
+
+.project .container>div:nth-of-type(2),
+.project .container>div:nth-of-type(5){
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+
+.project img {
+    width: 100%;
+    height: 100%
+}
+
+.project .over1 , .project .over2 ,.project .over3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1da1f2;
+    text-align: center;
+    opacity: .8;
+    display: none
+}
+.project .over4,.project .over3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    text-align: center;
+    opacity: .8;
+    display: none
+}
+
+.project .over6  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fbbc05;
+    text-align: center;
+    opacity: .8;
+    display: none
+}
+
+.project .over5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: purple;
+    text-align: center;
+    opacity: .8;
+    display: none
+}
+
+.project h4 {
+    color: #fff;
+    font-size: 20px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin: 85px auto;
+    width: 97px;
+    padding: 11px 0;
+}
+#Container .mix{
+	display: none;
+}
+/* End Projects */
+
+/* Start Footer */ 
+.footer {
+    background: #333;
+    text-align: center;
+    overflow: hidden
+}
+.footer .container, .footer .container hr {
+    color: #ccc;
+    margin: 30px auto;    min-width: 1200px
+}
+
+.footer .container p {
+    padding: 40px 0 1px;
+    color: #ccc
+} 
+
+.footer .container a {
+    float: left ;
+    color: #51b4ee;
+    margin-left: 15px;
+    padding-bottom: 40px
+}
+.footer .container a:first-of-type {
+   margin-left:516px
+}
+
+.footer .container i:hover {
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out
+}
+/* End Footer */
+/* Start Framework */
+
+.conthr {
+    background: #333
+}
+
+.clear {
+    clear: both
+}
+
+.navbar, .header, .footer, .skills , .project , .team , .testim {
+    min-width: 1250px
+}
+
+
+
+
+
+
+
+
+
+
+
